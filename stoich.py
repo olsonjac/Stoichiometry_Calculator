@@ -12,7 +12,8 @@ def gram_gram():
   r2m = float(input("Enter the atomic mass of the desired product: "))
   answer = (float(r1a)/r1m)*(r2c/r1c)*(r2m)
   print(f"{answer} grams of {r2} will be made.") 
-  
+
+  # grams to atoms conversion
 def gram_atom():
   r1 = input("enter the given reactant symbol: ")
   r1a = float(input("enter the amount in grams of the given reactant(use \"^\" for exponents and including NO labels): "))
@@ -23,6 +24,7 @@ def gram_atom():
   answer = (float(r1a)/r1m)*(r2c/r1c)*(avogadro)
   print(f"{r2} will end up with {answer} atoms") 
 
+#grams to moles conversion
 def gram_mol():
   r1 = input("enter the given reactant symbol: ")
   r1a = float(input("enter the amount in grams of the given reactant(use \"^\" for exponents): "))
@@ -33,6 +35,7 @@ def gram_mol():
   answer = (r1a/r1m)*(r2c/r1c)
   print(f"there are {answer} moles of {r1}")
 
+#gram to liters conversion
 def gram_Liter():  
   r1 = input("enter the given reactant symbol: ")
   r1a = float(input("enter the amount in grams of the given reactant(use \"^\" for exponents): "))
