@@ -193,7 +193,7 @@ while True:
   elif initial == "g" and final == "g":
     gram_gram()
     break
-  #informs user they did not enter the correct option
+  #informs user they did not enter the correct option and restarts the loop
   else:
     print("make sure you choose from the available options(g,a,L,m)")
     print("")
