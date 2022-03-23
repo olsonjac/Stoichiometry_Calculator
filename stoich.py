@@ -1,5 +1,5 @@
 avogadro = float(6.02 * 10**23)
-
+  
 def gram_gram():
   r1 = input("enter the given reactant symbol: ")
   r1a = float(input("enter the amount in grams of the given reactant: "))
@@ -69,7 +69,7 @@ def atom_atom():
   answer = (float(r1a)/avogadro)*(r2c/r1c)*(avogadro)
   print(f"{r1} will make {answer} atoms of {r2}") 
   print("")
-  print(f"{round(r1a,3)}g {r1}        {r2c} mol    {round(avogadro,3)} atoms     ")
+  print(f"{round(r1a,3)} atoms {r1}        {r2c} mol    {round(avogadro,3)} atoms     ")
   print(f"---------  x ----------x --------- = {answer} atoms {r2}")
   print(f"{round(avogadro,3)} {r1}    {r1c} mol       1 mol {r2}")
 
@@ -151,7 +151,7 @@ def Liter_mol():
   answer = (r1a/22.4)*(r2c/r1c)
   print(f"there are {answer} moles of {r2}")
   print("")
-  print(f"{r1a}mol {r1}        22.4 L         {r2c} mol {r2}")
+  print(f"{r1a} L {r1}        22.4 L         {r2c} mol {r2}")
   print(f"--------- x    ---------- x ---------- = {answer} moles {r2}")
   print(f"  1              1 mol {r1}       {r1c} mol {r1}")
 
